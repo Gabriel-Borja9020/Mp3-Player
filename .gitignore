@@ -5,6 +5,11 @@ build/
 # Configuración local de CLion
 .idea/
 
+# Solo se versionan el encabezado usado por el proyecto y su licencia.
+miniaudio-master/*
+!miniaudio-master/miniaudio.h
+!miniaudio-master/LICENSE
+
 # Ejecutables y objetos compilados
 *.o
 *.a
